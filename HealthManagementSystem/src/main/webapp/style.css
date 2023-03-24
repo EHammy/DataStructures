@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        nav li:last-child {
+            margin-right: 0;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        header {
+            background-color: #eee;
+            padding: 50px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        section {
+            padding: 50px;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        /* Cover photo styles */
+		.cover-photo {
+			height: 500px;
+			background-image: url('imgs/weights.jpg'); /* replace with your own image URL */
+			background-size: cover;
+			background-position: center;
+			position: relative;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+        label {
+            margin-bottom: 10px;
+        }
+        
+        input, textarea {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #555;
+        }
+        .back-to-top {
+			  display: none;
+			  position: fixed;
+			  bottom: 20px;
+			  left: 20px;
+			  z-index: 9999;
+			  font-size: 16px;
+			  border: none;
+			  outline: none;
+			  background-color: #333;
+			  color: white;
+			  cursor: pointer;
+			  padding: 15px;
+			  border-radius: 50%;
+			}
+			
+			.back-to-top:hover {
+			  background-color: #555;
+			}
