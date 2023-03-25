@@ -20,4 +20,4 @@ Installation and Usage
 - Access the application by navigating to http://localhost:8080/health-management-system/ in your web browser.
 
 Contributors
-Kassidi Freel
+- Kassidi Freel (EHammy)
